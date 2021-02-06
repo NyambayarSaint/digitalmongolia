@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_leftspecials",
+  "info": {
+    "name": "Leftspecial",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

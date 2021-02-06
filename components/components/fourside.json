@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_foursides",
+  "info": {
+    "name": "Fourside",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

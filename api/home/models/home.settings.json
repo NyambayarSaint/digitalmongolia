@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Layout": {
+      "type": "dynamiczone",
+      "components": [
+        "components.video",
+        "components.simplegrid",
+        "components.contact",
+        "components.special-carousel",
+        "components.carousel",
+        "components.slogan",
+        "components.image",
+        "components.parallax-left",
+        "components.caption",
+        "components.leftspecial",
+        "components.fourside"
+      ]
+    }
+  }
+}

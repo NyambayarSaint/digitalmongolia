@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_components_simplegrids",
+  "info": {
+    "name": "Simplegrid",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "Left": {
+      "type": "richtext"
+    },
+    "Background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Container": {
+      "type": "boolean",
+      "default": false
+    },
+    "DivideOnMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "Flex": {
+      "type": "boolean",
+      "default": true
+    },
+    "Right": {
+      "type": "richtext"
+    },
+    "PatternColor": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_slogans",
+  "info": {
+    "name": "Slogan",
+    "icon": "text-width"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
